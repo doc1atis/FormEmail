@@ -1,0 +1,26 @@
+{
+  "name": "formemail",
+  "version": "1.0.0",
+  "description": "this is an app that send emails",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "nodemailer": "^6.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doc1atis/FormEmail.git"
+  },
+  "author": "olgy jeangilles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doc1atis/FormEmail/issues"
+  },
+  "homepage": "https://github.com/doc1atis/FormEmail#readme"
+}
