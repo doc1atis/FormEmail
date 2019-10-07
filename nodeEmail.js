@@ -1,12 +1,10 @@
 const nodemailer = require("nodemailer");
-// sender: "olgy.jeangilles@codeimmersives.com"
-// receiver: "tlogipaisupremology@yahoo.com"
+
 function sendEmail(sender, senderName, receiver, textToBeSent, res) {
   let transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
       user: sender,
-      // change before pushing.
       pass: process.env.FORM_EMAIL
     }
   });
